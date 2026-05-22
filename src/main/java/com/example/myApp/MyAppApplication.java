@@ -8,6 +8,7 @@ import org.springframework.context.ApplicationContext;
 public class MyAppApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Its for how the git merge and branching works");
 		ApplicationContext context = SpringApplication.run(MyAppApplication.class, args);
 		Dev obj =context.getBean(Dev.class);
 		obj.build();

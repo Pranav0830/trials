@@ -11,7 +11,7 @@ public class Dev {
 
 
     public void build(){
-
+        System.out.println("building the git changes");
         laptop.compile();
         System.out.println("Working on Awesome project");
         System.out.println("Building Laptop");
