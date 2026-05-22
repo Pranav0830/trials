@@ -7,6 +7,8 @@ import org.springframework.stereotype.Component;
 public class Laptop {
 
     public void compile(){
+
         System.out.println("Compiling the myApp files");
+        System.out.println("Just trying git combinations");
     }
 }
